@@ -1,5 +1,5 @@
+### Register a new userc
 POST http://localhost:3000/api/auth/register
-
 Content-Type: application/json
 
 {
@@ -7,3 +7,13 @@ Content-Type: application/json
     "email":"honey@gmail.com",
     "password":"Test@1214"
 }
+
+### Register a new user
+# POST http://localhost:3000/api/auth/register
+# Content-Type: application/json
+
+# {
+#   "name": "Honey",
+#   "email": "honey@gmail.com",
+#   "password": "Test@1214"
+# }

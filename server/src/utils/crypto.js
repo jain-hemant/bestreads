@@ -6,16 +6,18 @@ async function generateHash(rawText) {
         const hashed = bcrypt.hash(rawText, BCRYPT_SALT_ROUND)
         return hashed
     } catch (error) {
-        next(error)
+        console.log("Error while hashing password")
+        return
     }
 }
 
-async function compareHash(rawText) {
+async function compareHash(rawText, hashedText) {
     try {
         const isVerified = await bcrypt.compare(rawText, hashedText)
         return isVerified
     } catch (error) {
-        next(error)
+        console.log("Error while comparing password")
+        return
     }
 }
 
