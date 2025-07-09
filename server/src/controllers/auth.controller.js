@@ -43,6 +43,8 @@ async function login(req, res, next) {
         res.cookie("access", accessToken, { maxAge: 3600000, httpOnly: true }) //  JWT_ACCESS_EXPIRE_IN
         res.cookie("refresh", refreshToken, { maxAge: 5000000, httpOnly: true }) // JWT_REFRESH_EXPIRE_IN
         // req.user.role = user.role
+        const { userId, name, role } = user
+        req.user = { userId, name, roles: role }
         return res.status(200).json({ message: "Login successfully... ", userId: user.id })
 
     } catch (error) {
@@ -64,10 +66,13 @@ async function logout(req, res, next) {
 
 async function me(req, res, next) {
     try {
-
+        const userId = req?.user?.userId
+        if (!userId) return res.status(400).json({ message: "All Filed is required. " })
+        return res.status(200).json({ data: req.user })
     } catch (error) {
-
+        console.log("Error while fetching me.", error)
+        return next()
     }
 }
 
-module.exports = { register, login, logout }
+module.exports = { register, login, logout, me }

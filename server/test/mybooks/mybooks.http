@@ -1,0 +1,11 @@
+### Fetch User Books
+GET http://localhost:3000/api/mybooks
+
+### Add Books to user list
+POST  http://localhost:3000/api/mybooks/686e139ea80ab9a78464af76
+Content-Type: application/json
+
+{
+    "status":"Want to Read",
+    "rating":4
+}
