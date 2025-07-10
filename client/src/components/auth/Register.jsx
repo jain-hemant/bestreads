@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import FetchAPI from '../../api/BaseAPI'
 
 export default function Register() {
     const [formState, setFormState] = useState({
@@ -12,8 +13,16 @@ export default function Register() {
         setFormState(prev => ({ ...prev, [name]: value }))
 
     }
-    const handleSubmit = (e) => {
-        console.log(formState)
+    const handleSubmit = async (e) => {
+
+        const data = await FetchAPI({
+            endpoint: "/api/auth/register",
+            method: "POST",
+            payload: formState
+        })
+
+        console.log("my data - ", data)
+
     }
     return (
         <div className='container flex justify-center'>

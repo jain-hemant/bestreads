@@ -7,13 +7,17 @@ const { authentication, authorization } = require("./middlewares/auth.middilewar
 const BookRoute = require("./routes/book.routes")
 const MyBookRoutes = require("./routes/mybook.route")
 const errorHandler = require("./middlewares/errorHandler.middleware")
+const { FRONTEND_URL } = require("./configs/config")
 const app = express()
 
 // using in-built middlewares
 app.use(express.json())
 app.use(cookieParser())
 app.use(helmet())
-app.use(cors())
+app.use(cors({
+    origin: FRONTEND_URL,
+    credentials: true,
+}));
 
 // adding routes
 app.use("/api/auth", AuthRoute)

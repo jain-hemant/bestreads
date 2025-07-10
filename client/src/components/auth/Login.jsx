@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-
+import { Link } from "react-router-dom"
+import FetchAPI from '../../api/BaseAPI'
 export default function Login() {
   const [formState, setFormState] = useState({
     email: "",
@@ -10,8 +11,14 @@ export default function Login() {
     setFormState(prev => ({ ...prev, [name]: value }))
 
   }
-  const handleSubmit = (e) => {
-    console.log(formState)
+  const handleSubmit = async (e) => {
+    const data = await FetchAPI({
+      endpoint: "/api/auth/login",
+      method: "POST",
+      payload: formState
+    })
+
+    console.log("my data - ", data)
   }
   return (
     <div className='container flex justify-center'>
@@ -55,7 +62,7 @@ export default function Login() {
         >Sign up
         </button>
         <div className='mt-10 flex flex-col items-center gap-2 '>
-          <div className='text-sm flex gap-4'> <a href="#">Terms of Service</a> <a href="#">Privacy</a>  <a href="#">Help</a></div>
+          <div className='text-sm flex gap-4'>  <Link to={"#"}>Terms of Service</Link> <Link to={"#"}>Privacy</Link>  <Link to={"#"}>Help</Link></div>
           <p className='text-sm'>© 2025 Bestreads, Inc.</p>
         </div>
       </div>

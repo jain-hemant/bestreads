@@ -1,5 +1,6 @@
 require("dotenv").config()
 
+const FRONTEND_URL = process.env.FRONTEND_URL
 const PORT = process.env.PORT
 const MONGO_URI = process.env.MONGO_URI  // mongodb://127.0.0.1:27017/bestreads
 const JWT_ACCESS_SECRETE = process.env.JWT_ACCESS_SECRETE
@@ -10,6 +11,7 @@ const JWT_REFRESH_EXPIRE_IN = Number(process.env.JWT_REFRESH_EXPIRE_IN) * 3600 *
 const APP_LOGO = process.env.APP_LOGO
 
 module.exports = {
+    FRONTEND_URL,
     PORT,
     MONGO_URI,
     JWT_ACCESS_SECRETE,
