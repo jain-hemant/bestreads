@@ -1,0 +1,800 @@
+[
+    {
+        "_id": {
+            "$oid": "66c4b1a1e1a1a1a1a1a1a101"
+        },
+        "title": "The Quantum Enigma",
+        "author": "Aarav Sharma",
+        "coverImage": "https://covers.openlibrary.org/b/id/10523345-L.jpg",
+        "genres": "science fiction",
+        "tag": "new release",
+        "availblity": true,
+        "rating": 1200,
+        "star": 4.5,
+        "publish": 2018
+    },
+    {
+        "_id": {
+            "$oid": "66c4b1a1e1a1a1a1a1a1a102"
+        },
+        "title": "Brushstrokes of India",
+        "author": "Priya Verma",
+        "coverImage": "https://covers.openlibrary.org/b/id/10523346-L.jpg",
+        "genres": "arts",
+        "tag": "lists",
+        "availblity": true,
+        "rating": 350,
+        "star": 4.1,
+        "publish": 2012
+    },
+    {
+        "_id": {
+            "$oid": "66c4b1a1e1a1a1a1a1a1a103"
+        },
+        "title": "History Unveiled",
+        "author": "Rohan Patel",
+        "coverImage": "https://covers.openlibrary.org/b/id/10523347-L.jpg",
+        "genres": "history",
+        "tag": "explore",
+        "availblity": true,
+        "rating": 800,
+        "star": 4.3,
+        "publish": 2015
+    },
+    {
+        "_id": {
+            "$oid": "66c4b1a1e1a1a1a1a1a1a104"
+        },
+        "title": "Code of Tomorrow",
+        "author": "Sneha Singh",
+        "coverImage": "https://covers.openlibrary.org/b/id/10523348-L.jpg",
+        "genres": "computer science",
+        "tag": "recommendation",
+        "availblity": true,
+        "rating": 2100,
+        "star": 4.7,
+        "publish": 2021
+    },
+    {
+        "_id": {
+            "$oid": "66c4b1a1e1a1a1a1a1a1a105"
+        },
+        "title": "Love in the Monsoon",
+        "author": "Ananya Iyer",
+        "coverImage": "https://covers.openlibrary.org/b/id/10523349-L.jpg",
+        "genres": "romance",
+        "tag": "choice award",
+        "availblity": true,
+        "rating": 950,
+        "star": 4.2,
+        "publish": 2019
+    },
+    {
+        "_id": {
+            "$oid": "66c4b1a1e1a1a1a1a1a1a106"
+        },
+        "title": "The Business Mindset",
+        "author": "Vikram Desai",
+        "coverImage": "https://covers.openlibrary.org/b/id/10523350-L.jpg",
+        "genres": "business",
+        "tag": "giveaways",
+        "availblity": true,
+        "rating": 3000,
+        "star": 4.8,
+        "publish": 2020
+    },
+    {
+        "_id": {
+            "$oid": "66c4b1a1e1a1a1a1a1a1a107"
+        },
+        "title": "Comic Relief",
+        "author": "Kiran Joshi",
+        "coverImage": "https://covers.openlibrary.org/b/id/10523351-L.jpg",
+        "genres": "comic",
+        "tag": "news & interview",
+        "availblity": true,
+        "rating": 400,
+        "star": 3.9,
+        "publish": 2016
+    },
+    {
+        "_id": {
+            "$oid": "66c4b1a1e1a1a1a1a1a1a108"
+        },
+        "title": "The Crime Scene",
+        "author": "Meera Nair",
+        "coverImage": "https://covers.openlibrary.org/b/id/10523352-L.jpg",
+        "genres": "crime",
+        "tag": "explore",
+        "availblity": false,
+        "rating": 150,
+        "star": 3.7,
+        "publish": 2011
+    },
+    {
+        "_id": {
+            "$oid": "66c4b1a1e1a1a1a1a1a1a109"
+        },
+        "title": "Spiritual Awakening",
+        "author": "Rajesh Kumar",
+        "coverImage": "https://covers.openlibrary.org/b/id/10523353-L.jpg",
+        "genres": "spirituality",
+        "tag": "lists",
+        "availblity": true,
+        "rating": 600,
+        "star": 4.0,
+        "publish": 2017
+    },
+    {
+        "_id": {
+            "$oid": "66c4b1a1e1a1a1a1a1a1a10a"
+        },
+        "title": "Science for All",
+        "author": "Aarav Sharma",
+        "coverImage": "https://covers.openlibrary.org/b/id/10523354-L.jpg",
+        "genres": "science",
+        "tag": "recommendation",
+        "availblity": true,
+        "rating": 1100,
+        "star": 4.4,
+        "publish": 2022
+    },
+    {
+        "_id": {
+            "$oid": "66c4b1a1e1a1a1a1a1a1a10b"
+        },
+        "title": "Digital Fortress",
+        "author": "Sneha Singh",
+        "coverImage": "https://covers.openlibrary.org/b/id/10523355-L.jpg",
+        "genres": "computer science",
+        "tag": "lists",
+        "availblity": true,
+        "rating": 2500,
+        "star": 4.6,
+        "publish": 2023
+    },
+    {
+        "_id": {
+            "$oid": "66c4b1a1e1a1a1a1a1a1a10c"
+        },
+        "title": "The Lost Empire",
+        "author": "Rohan Patel",
+        "coverImage": "https://covers.openlibrary.org/b/id/10523356-L.jpg",
+        "genres": "history",
+        "tag": "choice award",
+        "availblity": true,
+        "rating": 900,
+        "star": 4.2,
+        "publish": 2014
+    },
+    {
+        "_id": {
+            "$oid": "66c4b1a1e1a1a1a1a1a1a10d"
+        },
+        "title": "Startup India",
+        "author": "Vikram Desai",
+        "coverImage": "https://covers.openlibrary.org/b/id/10523357-L.jpg",
+        "genres": "business",
+        "tag": "giveaways",
+        "availblity": true,
+        "rating": 4100,
+        "star": 4.9,
+        "publish": 2021
+    },
+    {
+        "_id": {
+            "$oid": "66c4b1a1e1a1a1a1a1a1a10e"
+        },
+        "title": "The Art of Comics",
+        "author": "Kiran Joshi",
+        "coverImage": "https://covers.openlibrary.org/b/id/10523358-L.jpg",
+        "genres": "comic",
+        "tag": "news & interview",
+        "availblity": true,
+        "rating": 600,
+        "star": 4.0,
+        "publish": 2017
+    },
+    {
+        "_id": {
+            "$oid": "66c4b1a1e1a1a1a1a1a1a10f"
+        },
+        "title": "Crimson Shadows",
+        "author": "Meera Nair",
+        "coverImage": "https://covers.openlibrary.org/b/id/10523359-L.jpg",
+        "genres": "crime",
+        "tag": "explore",
+        "availblity": false,
+        "rating": 200,
+        "star": 3.8,
+        "publish": 2010
+    },
+    {
+        "_id": {
+            "$oid": "66c4b1a1e1a1a1a1a1a1a110"
+        },
+        "title": "Meditation for Life",
+        "author": "Rajesh Kumar",
+        "coverImage": "https://covers.openlibrary.org/b/id/10523360-L.jpg",
+        "genres": "spirituality",
+        "tag": "recommendation",
+        "availblity": true,
+        "rating": 700,
+        "star": 4.1,
+        "publish": 2018
+    },
+    {
+        "_id": {
+            "$oid": "66c4b1a1e1a1a1a1a1a1a111"
+        },
+        "title": "Romance in Rain",
+        "author": "Ananya Iyer",
+        "coverImage": "https://covers.openlibrary.org/b/id/10523361-L.jpg",
+        "genres": "romance",
+        "tag": "choice award",
+        "availblity": true,
+        "rating": 1200,
+        "star": 4.3,
+        "publish": 2020
+    },
+    {
+        "_id": {
+            "$oid": "66c4b1a1e1a1a1a1a1a1a112"
+        },
+        "title": "The Science of Everything",
+        "author": "Aarav Sharma",
+        "coverImage": "https://covers.openlibrary.org/b/id/10523362-L.jpg",
+        "genres": "science",
+        "tag": "lists",
+        "availblity": true,
+        "rating": 1300,
+        "star": 4.5,
+        "publish": 2024
+    },
+    {
+        "_id": {
+            "$oid": "66c4b1a1e1a1a1a1a1a1a113"
+        },
+        "title": "The Artistic Mind",
+        "author": "Priya Verma",
+        "coverImage": "https://covers.openlibrary.org/b/id/10523363-L.jpg",
+        "genres": "arts",
+        "tag": "explore",
+        "availblity": true,
+        "rating": 500,
+        "star": 4.0,
+        "publish": 2013
+    },
+    {
+        "_id": {
+            "$oid": "66c4b1a1e1a1a1a1a1a1a114"
+        },
+        "title": "The Innovators",
+        "author": "Sneha Singh",
+        "coverImage": "https://covers.openlibrary.org/b/id/10523364-L.jpg",
+        "genres": "computer science",
+        "tag": "recommendation",
+        "availblity": true,
+        "rating": 1800,
+        "star": 4.4,
+        "publish": 2022
+    },
+    {
+        "_id": {
+            "$oid": "66c4b1a1e1a1a1a1a1a1a115"
+        },
+        "title": "The Indian Tycoon",
+        "author": "Vikram Desai",
+        "coverImage": "https://covers.openlibrary.org/b/id/10523365-L.jpg",
+        "genres": "business",
+        "tag": "giveaways",
+        "availblity": true,
+        "rating": 3200,
+        "star": 4.7,
+        "publish": 2019
+    },
+    {
+        "_id": {
+            "$oid": "66c4b1a1e1a1a1a1a1a1a116"
+        },
+        "title": "Comic Universe",
+        "author": "Kiran Joshi",
+        "coverImage": "https://covers.openlibrary.org/b/id/10523366-L.jpg",
+        "genres": "comic",
+        "tag": "news & interview",
+        "availblity": true,
+        "rating": 800,
+        "star": 4.1,
+        "publish": 2018
+    },
+    {
+        "_id": {
+            "$oid": "66c4b1a1e1a1a1a1a1a1a117"
+        },
+        "title": "Mystery in Mumbai",
+        "author": "Meera Nair",
+        "coverImage": "https://covers.openlibrary.org/b/id/10523367-L.jpg",
+        "genres": "crime",
+        "tag": "explore",
+        "availblity": false,
+        "rating": 300,
+        "star": 3.6,
+        "publish": 2012
+    },
+    {
+        "_id": {
+            "$oid": "66c4b1a1e1a1a1a1a1a1a118"
+        },
+        "title": "Spiritual India",
+        "author": "Rajesh Kumar",
+        "coverImage": "https://covers.openlibrary.org/b/id/10523368-L.jpg",
+        "genres": "spirituality",
+        "tag": "lists",
+        "availblity": true,
+        "rating": 900,
+        "star": 4.2,
+        "publish": 2016
+    },
+    {
+        "_id": {
+            "$oid": "66c4b1a1e1a1a1a1a1a1a119"
+        },
+        "title": "Love Beyond Borders",
+        "author": "Ananya Iyer",
+        "coverImage": "https://covers.openlibrary.org/b/id/10523369-L.jpg",
+        "genres": "romance",
+        "tag": "choice award",
+        "availblity": true,
+        "rating": 1400,
+        "star": 4.4,
+        "publish": 2021
+    },
+    {
+        "_id": {
+            "$oid": "66c4b1a1e1a1a1a1a1a1a11a"
+        },
+        "title": "Science Wonders",
+        "author": "Aarav Sharma",
+        "coverImage": "https://covers.openlibrary.org/b/id/10523370-L.jpg",
+        "genres": "science",
+        "tag": "recommendation",
+        "availblity": true,
+        "rating": 1500,
+        "star": 4.6,
+        "publish": 2025
+    },
+    {
+        "_id": {
+            "$oid": "66c4b1a1e1a1a1a1a1a1a11b"
+        },
+        "title": "Art in Motion",
+        "author": "Priya Verma",
+        "coverImage": "https://covers.openlibrary.org/b/id/10523371-L.jpg",
+        "genres": "arts",
+        "tag": "lists",
+        "availblity": true,
+        "rating": 600,
+        "star": 4.1,
+        "publish": 2015
+    },
+    {
+        "_id": {
+            "$oid": "66c4b1a1e1a1a1a1a1a1a11c"
+        },
+        "title": "Tech Revolution",
+        "author": "Sneha Singh",
+        "coverImage": "https://covers.openlibrary.org/b/id/10523372-L.jpg",
+        "genres": "computer science",
+        "tag": "recommendation",
+        "availblity": true,
+        "rating": 2200,
+        "star": 4.8,
+        "publish": 2024
+    },
+    {
+        "_id": {
+            "$oid": "66c4b1a1e1a1a1a1a1a1a11d"
+        },
+        "title": "Business Growth",
+        "author": "Vikram Desai",
+        "coverImage": "https://covers.openlibrary.org/b/id/10523373-L.jpg",
+        "genres": "business",
+        "tag": "giveaways",
+        "availblity": true,
+        "rating": 3500,
+        "star": 4.8,
+        "publish": 2022
+    },
+    {
+        "_id": {
+            "$oid": "66c4b1a1e1a1a1a1a1a1a11e"
+        },
+        "title": "Comic Carnival",
+        "author": "Kiran Joshi",
+        "coverImage": "https://covers.openlibrary.org/b/id/10523374-L.jpg",
+        "genres": "comic",
+        "tag": "news & interview",
+        "availblity": true,
+        "rating": 900,
+        "star": 4.2,
+        "publish": 2019
+    },
+    {
+        "_id": {
+            "$oid": "66c4b1a1e1a1a1a1a1a1a11f"
+        },
+        "title": "Mumbai Murders",
+        "author": "Meera Nair",
+        "coverImage": "https://covers.openlibrary.org/b/id/10523375-L.jpg",
+        "genres": "crime",
+        "tag": "explore",
+        "availblity": false,
+        "rating": 400,
+        "star": 3.7,
+        "publish": 2013
+    },
+    {
+        "_id": {
+            "$oid": "66c4b1a1e1a1a1a1a1a1a120"
+        },
+        "title": "Spiritual Pathways",
+        "author": "Rajesh Kumar",
+        "coverImage": "https://covers.openlibrary.org/b/id/10523376-L.jpg",
+        "genres": "spirituality",
+        "tag": "lists",
+        "availblity": true,
+        "rating": 1000,
+        "star": 4.3,
+        "publish": 2019
+    },
+    {
+        "_id": {
+            "$oid": "66c4b1a1e1a1a1a1a1a1a121"
+        },
+        "title": "Romantic Getaway",
+        "author": "Ananya Iyer",
+        "coverImage": "https://covers.openlibrary.org/b/id/10523377-L.jpg",
+        "genres": "romance",
+        "tag": "choice award",
+        "availblity": true,
+        "rating": 1600,
+        "star": 4.5,
+        "publish": 2023
+    },
+    {
+        "_id": {
+            "$oid": "66c4b1a1e1a1a1a1a1a1a122"
+        },
+        "title": "Science Explorers",
+        "author": "Aarav Sharma",
+        "coverImage": "https://covers.openlibrary.org/b/id/10523378-L.jpg",
+        "genres": "science",
+        "tag": "recommendation",
+        "availblity": true,
+        "rating": 1700,
+        "star": 4.7,
+        "publish": 2025
+    },
+    {
+        "_id": {
+            "$oid": "66c4b1a1e1a1a1a1a1a1a123"
+        },
+        "title": "Artistic Visions",
+        "author": "Priya Verma",
+        "coverImage": "https://covers.openlibrary.org/b/id/10523379-L.jpg",
+        "genres": "arts",
+        "tag": "lists",
+        "availblity": true,
+        "rating": 700,
+        "star": 4.2,
+        "publish": 2016
+    },
+    {
+        "_id": {
+            "$oid": "66c4b1a1e1a1a1a1a1a1a124"
+        },
+        "title": "AI Revolution",
+        "author": "Sneha Singh",
+        "coverImage": "https://covers.openlibrary.org/b/id/10523380-L.jpg",
+        "genres": "computer science",
+        "tag": "recommendation",
+        "availblity": true,
+        "rating": 2300,
+        "star": 4.9,
+        "publish": 2025
+    },
+    {
+        "_id": {
+            "$oid": "66c4b1a1e1a1a1a1a1a1a125"
+        },
+        "title": "Business Titans",
+        "author": "Vikram Desai",
+        "coverImage": "https://covers.openlibrary.org/b/id/10523381-L.jpg",
+        "genres": "business",
+        "tag": "giveaways",
+        "availblity": true,
+        "rating": 3700,
+        "star": 4.9,
+        "publish": 2023
+    },
+    {
+        "_id": {
+            "$oid": "66c4b1a1e1a1a1a1a1a1a126"
+        },
+        "title": "Comic Parade",
+        "author": "Kiran Joshi",
+        "coverImage": "https://covers.openlibrary.org/b/id/10523382-L.jpg",
+        "genres": "comic",
+        "tag": "news & interview",
+        "availblity": true,
+        "rating": 1000,
+        "star": 4.3,
+        "publish": 2020
+    },
+    {
+        "_id": {
+            "$oid": "66c4b1a1e1a1a1a1a1a1a127"
+        },
+        "title": "Delhi Detectives",
+        "author": "Meera Nair",
+        "coverImage": "https://covers.openlibrary.org/b/id/10523383-L.jpg",
+        "genres": "crime",
+        "tag": "explore",
+        "availblity": false,
+        "rating": 500,
+        "star": 3.9,
+        "publish": 2014
+    },
+    {
+        "_id": {
+            "$oid": "66c4b1a1e1a1a1a1a1a1a128"
+        },
+        "title": "Spiritual Guide",
+        "author": "Rajesh Kumar",
+        "coverImage": "https://covers.openlibrary.org/b/id/10523384-L.jpg",
+        "genres": "spirituality",
+        "tag": "lists",
+        "availblity": true,
+        "rating": 1100,
+        "star": 4.4,
+        "publish": 2020
+    },
+    {
+        "_id": {
+            "$oid": "66c4b1a1e1a1a1a1a1a1a129"
+        },
+        "title": "Romantic Escape",
+        "author": "Ananya Iyer",
+        "coverImage": "https://covers.openlibrary.org/b/id/10523385-L.jpg",
+        "genres": "romance",
+        "tag": "choice award",
+        "availblity": true,
+        "rating": 1800,
+        "star": 4.6,
+        "publish": 2025
+    },
+    {
+        "_id": {
+            "$oid": "66c4b1a1e1a1a1a1a1a1a12b"
+        },
+        "title": "The Startup Journey",
+        "author": "Vikram Desai",
+        "coverImage": "https://covers.openlibrary.org/b/id/10523387-L.jpg",
+        "genres": "business",
+        "tag": "giveaways",
+        "availblity": true,
+        "rating": 4100,
+        "star": 4.7,
+        "publish": 2024
+    },
+    {
+        "_id": {
+            "$oid": "66c4b1a1e1a1a1a1a1a1a12c"
+        },
+        "title": "Canvas of Dreams",
+        "author": "Priya Verma",
+        "coverImage": "https://covers.openlibrary.org/b/id/10523388-L.jpg",
+        "genres": "arts",
+        "tag": "lists",
+        "availblity": true,
+        "rating": 800,
+        "star": 4.2,
+        "publish": 2017
+    },
+    {
+        "_id": {
+            "$oid": "66c4b1a1e1a1a1a1a1a1a12d"
+        },
+        "title": "The Cyber Age",
+        "author": "Sneha Singh",
+        "coverImage": "https://covers.openlibrary.org/b/id/10523389-L.jpg",
+        "genres": "computer science",
+        "tag": "recommendation",
+        "availblity": true,
+        "rating": 2400,
+        "star": 4.6,
+        "publish": 2025
+    },
+    {
+        "_id": {
+            "$oid": "66c4b1a1e1a1a1a1a1a1a12e"
+        },
+        "title": "Comic Legends",
+        "author": "Kiran Joshi",
+        "coverImage": "https://covers.openlibrary.org/b/id/10523390-L.jpg",
+        "genres": "comic",
+        "tag": "news & interview",
+        "availblity": true,
+        "rating": 1100,
+        "star": 4.4,
+        "publish": 2021
+    },
+    {
+        "_id": {
+            "$oid": "66c4b1a1e1a1a1a1a1a1a12f"
+        },
+        "title": "Criminal Minds",
+        "author": "Meera Nair",
+        "coverImage": "https://covers.openlibrary.org/b/id/10523391-L.jpg",
+        "genres": "crime",
+        "tag": "explore",
+        "availblity": false,
+        "rating": 600,
+        "star": 3.8,
+        "publish": 2015
+    },
+    {
+        "_id": {
+            "$oid": "66c4b1a1e1a1a1a1a1a1a130"
+        },
+        "title": "Spiritual Realms",
+        "author": "Rajesh Kumar",
+        "coverImage": "https://covers.openlibrary.org/b/id/10523392-L.jpg",
+        "genres": "spirituality",
+        "tag": "lists",
+        "availblity": true,
+        "rating": 1200,
+        "star": 4.3,
+        "publish": 2021
+    },
+    {
+        "_id": {
+            "$oid": "66c4b1a1e1a1a1a1a1a1a131"
+        },
+        "title": "Romance in Paris",
+        "author": "Ananya Iyer",
+        "coverImage": "https://covers.openlibrary.org/b/id/10523393-L.jpg",
+        "genres": "romance",
+        "tag": "choice award",
+        "availblity": true,
+        "rating": 2000,
+        "star": 4.7,
+        "publish": 2025
+    },
+    {
+        "_id": {
+            "$oid": "66c4b1a1e1a1a1a1a1a1a132"
+        },
+        "title": "Science Unlocked",
+        "author": "Aarav Sharma",
+        "coverImage": "https://covers.openlibrary.org/b/id/10523394-L.jpg",
+        "genres": "science",
+        "tag": "recommendation",
+        "availblity": true,
+        "rating": 2100,
+        "star": 4.8,
+        "publish": 2025
+    },
+    {
+        "_id": {
+            "$oid": "66c4b1a1e1a1a1a1a1a1a133"
+        },
+        "title": "Artful India",
+        "author": "Priya Verma",
+        "coverImage": "https://covers.openlibrary.org/b/id/10523395-L.jpg",
+        "genres": "arts",
+        "tag": "lists",
+        "availblity": true,
+        "rating": 900,
+        "star": 4.3,
+        "publish": 2018
+    },
+    {
+        "_id": {
+            "$oid": "66c4b1a1e1a1a1a1a1a1a134"
+        },
+        "title": "Tech Pioneers",
+        "author": "Sneha Singh",
+        "coverImage": "https://covers.openlibrary.org/b/id/10523396-L.jpg",
+        "genres": "computer science",
+        "tag": "recommendation",
+        "availblity": true,
+        "rating": 2600,
+        "star": 4.9,
+        "publish": 2025
+    },
+    {
+        "_id": {
+            "$oid": "66c4b1a1e1a1a1a1a1a1a135"
+        },
+        "title": "Business Mavericks",
+        "author": "Vikram Desai",
+        "coverImage": "https://covers.openlibrary.org/b/id/10523397-L.jpg",
+        "genres": "business",
+        "tag": "giveaways",
+        "availblity": true,
+        "rating": 3900,
+        "star": 4.8,
+        "publish": 2024
+    },
+    {
+        "_id": {
+            "$oid": "66c4b1a1e1a1a1a1a1a1a136"
+        },
+        "title": "Comic Stars",
+        "author": "Kiran Joshi",
+        "coverImage": "https://covers.openlibrary.org/b/id/10523398-L.jpg",
+        "genres": "comic",
+        "tag": "news & interview",
+        "availblity": true,
+        "rating": 1200,
+        "star": 4.5,
+        "publish": 2022
+    },
+    {
+        "_id": {
+            "$oid": "66c4b1a1e1a1a1a1a1a1a137"
+        },
+        "title": "Crime in Kolkata",
+        "author": "Meera Nair",
+        "coverImage": "https://covers.openlibrary.org/b/id/10523399-L.jpg",
+        "genres": "crime",
+        "tag": "explore",
+        "availblity": false,
+        "rating": 700,
+        "star": 3.9,
+        "publish": 2016
+    },
+    {
+        "_id": {
+            "$oid": "66c4b1a1e1a1a1a1a1a1a138"
+        },
+        "title": "Spiritual Wisdom",
+        "author": "Rajesh Kumar",
+        "coverImage": "https://covers.openlibrary.org/b/id/10523400-L.jpg",
+        "genres": "spirituality",
+        "tag": "lists",
+        "availblity": true,
+        "rating": 1300,
+        "star": 4.4,
+        "publish": 2022
+    },
+    {
+        "_id": {
+            "$oid": "66c4b1a1e1a1a1a1a1a1a139"
+        },
+        "title": "Romantic Tales",
+        "author": "Ananya Iyer",
+        "coverImage": "https://covers.openlibrary.org/b/id/10523401-L.jpg",
+        "genres": "romance",
+        "tag": "choice award",
+        "availblity": true,
+        "rating": 2200,
+        "star": 4.8,
+        "publish": 2025
+    },
+    {
+        "_id": {
+            "$oid": "66c4b1a1e1a1a1a1a1a1a13a"
+        },
+        "title": "Science Breakthroughs",
+        "author": "Aarav Sharma",
+        "coverImage": "https://covers.openlibrary.org/b/id/10523402-L.jpg",
+        "genres": "science",
+        "tag": "recommendation",
+        "availblity": true,
+        "rating": 2300,
+        "star": 4.9,
+        "publish": 2025
+    }
+]
