@@ -1,1 +1,8 @@
 @import "tailwindcss";
+
+p,
+span,
+div,
+Link {
+    font-size: 14px;
+}

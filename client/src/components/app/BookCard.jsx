@@ -5,8 +5,8 @@ export default function BookCard() {
     return (
         <div className='grid grid-cols-4 gap-2'>
             {
-                books.map((book) => (
-                    <div key={book.id} className='flex flex-col shadow gap-2  bg-gray-800 text-white mt-2 '>
+                books.map((book, idx) => (
+                    <div key={idx} className='flex flex-col shadow gap-2  bg-gray-800 text-white mt-2 '>
                         <div><img src={book.coverImage} alt={book.title} className='w-full h-48' /></div>
                         <div className='flex justify-between px-2'><span>{book.publish}</span> <span>{book.star} <span>{book.rating}</span></span></div>
                         <div className='flex flex-col justify-center items-center gap-2'>

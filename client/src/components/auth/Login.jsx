@@ -1,7 +1,11 @@
 import React, { useState } from 'react'
-import { Link } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
 import FetchAPI from '../../api/BaseAPI'
+import { useDispatch } from "react-redux"
+import { setMe } from '../../redux/slice/authSlice'
 export default function Login() {
+  const dispatch = useDispatch()
+  const navigate = useNavigate()
   const [formState, setFormState] = useState({
     email: "",
     password: "",
@@ -19,6 +23,11 @@ export default function Login() {
     })
 
     console.log("my data - ", data)
+    // if(!data){
+
+    // }
+    dispatch(setMe(data))
+    navigate("/")
   }
   return (
     <div className='container flex justify-center'>

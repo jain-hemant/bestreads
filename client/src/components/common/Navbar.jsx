@@ -9,9 +9,9 @@ export default function Navbar() {
       {/* Menus */}
       <div className='flex lg:gap-4 lg:text-xl'>
         <Link to={"/"} className='lg:px-5 py-3 hover:bg-amber-950 hover:text-white '>Home</Link>
-        <Link to={"/"} className='lg:px-5 py-3 hover:bg-amber-950 hover:text-white '>My Books</Link>
-        <Link to={"/"} className='lg:px-5 py-3 hover:bg-amber-950 hover:text-white '>Browse ▾</Link>
-        <Link to={"/"} className='lg:px-5 py-3 hover:bg-amber-950 hover:text-white '>Community ▾</Link>
+        <Link to={"/mybooks"} className='lg:px-5 py-3 hover:bg-amber-950 hover:text-white '>My Books</Link>
+        <Link to={"/books"} className='lg:px-5 py-3 hover:bg-amber-950 hover:text-white '>Books ▾</Link>
+        <Link to={"/community"} className='lg:px-5 py-3 hover:bg-amber-950 hover:text-white '>Community ▾</Link>
       </div>
       {/* Searchbar */}
       <div className='hidden'>
